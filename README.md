@@ -34,7 +34,7 @@ greetings = [
 
 Telethon упрощает взаимодействие с Telegram. Забудьте о сложных настройках Puppeteer. Telethon — ваш личный программный ассистент.
 
-### Как это работает?
+Как это работает?
 
 1. Регистрация приложения на [my.telegram.org](https://my.telegramm.org/auth) для получения api_id и api_hash.
 
@@ -100,13 +100,13 @@ async def main():
 asyncio.run(main())
 
 
-### Подготовка:
+Подготовка:
 
-Установите необходимые библиотеки: pip install telethon python-dotenv pytz.
+1. Установите необходимые библиотеки: pip install telethon python-dotenv pytz.
 
-Создайте файл .env и добавьте туда api_id и api_hash, полученные на [my.telegram.org](https://my.telegramm.org/auth).
+2. Создайте файл .env и добавьте туда api_id и api_hash, полученные на [my.telegram.org](https://my.telegramm.org/auth).
 
-Замените USERNAME на имя пользователя или номер телефона.
+3. Замените USERNAME на имя пользователя или номер телефона.
 
 ## Полная версия скрипта
 
